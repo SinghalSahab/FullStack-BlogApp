@@ -3,9 +3,7 @@ import { Link } from "react-router-dom";
 const Logo = ({ type }) => {
   return (
     <div className=''>
-      <Link
-        to='/'
-        className={`text-2xl font-semibold dark:text-white ${
+      <Link to='/' className={`text-2xl font-semibold dark:text-white ${
           type && "text-white  text-4xl"
         }`}
       >

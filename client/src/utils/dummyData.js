@@ -40,9 +40,8 @@ export const posts = [
       ' */</code></pre><p style="text-align: start">HTML attributes can also be overridden, with a <a target="_blank" rel="noopener ugc nofollow" class="af lw" href="https://github.com/probablyup/markdown-to-jsx#usage"><u>few exceptions</u></a>.</p><h2 style="text-align: start"><strong>HTML is a-ok.</strong></h2><p style="text-align: start">Most markdown parsers steer clear of handling HTML and ones targeting JSX often have to resort to using <code>dangerouslySetInnerHTML</code>, an escape hatch that opens up your code to various security risks.</p><p style="text-align: start"><code>markdown-to-jsx</code> itself had to utilize this functionality in an earlier version, but as of v6 that is no longer the case! It’s all good now.</p><h2 style="text-align: start"><strong>Github-Flavored Markdown (GFM) syntaxes are supported.</strong></h2><p style="text-align: start">GFM <a target="_blank" rel="noopener ugc nofollow" class="af lw" href="https://github.github.com/gfm/"><u>adds a ton of useful functionality</u></a> to markdown like HTML tables, task lists, strikethrough formatting, and more.</p><p style="text-align: start">—</p><p style="text-align: start">All this weighs in at <a target="_blank" rel="noopener ugc nofollow" class="af lw" href="https://bundlephobia.com/result?p=markdown-to-jsx%406.0.3"><u>just over 5kB gzipped</u></a>.</p><p style="text-align: start">Special thanks are owed to the <a target="_blank" rel="noopener ugc nofollow" class="af lw" href="https://github.com/Khan/simple-markdown"><u>simple-markdown</u></a> team for creating an extremely simple, but highly-extensible markdown framework. A forked version of their parsing engine is the baseline for all the functionality above and much more to come. 🙏🏼</p><p style="text-align: start"><em>Check out my other project: </em><a target="_blank" rel="noopener ugc nofollow" class="af lw" href="https://buttermilk.js.org/"><u>buttermilk</u></a>, beautifully simple routing for React</p>',
     img: "https://firebasestorage.googleapis.com/v0/b/codewave-codebase-e052b.appspot.com/o/nextjs-blog%2FSignin%20-%20Dark.png?alt=media&token=b3abdef1-5c0c-404c-a81b-94d558a6bb76",
     cat: "CODING",
-    views:
-      Array(50)[
-        ("655ca253c2b11c0988aa3127",
+    views:[
+        "655ca253c2b11c0988aa3127",
         "655ca254c2b11c0988aa312c",
         "655ca25dc2b11c0988aa3131",
         "655ca25ec2b11c0988aa3136",
@@ -91,7 +90,7 @@ export const posts = [
         "655ef1fac86d7a706c36f9b0",
         "655ef1fbc86d7a706c36f9bb",
         "655ef2bcc86d7a706c36f9c4",
-        "655ef5b0c86d7a706c36f9cb")
+        "655ef5b0c86d7a706c36f9cb"
       ],
     user: {
       _id: "655ad72bd148ee58ab8d5871",
@@ -113,8 +112,8 @@ export const posts = [
     img: "https://res.cloudinary.com/djs3wu5bg/image/upload/v1683874453/samples/bike.jpg",
     cat: "FASHION",
     views:
-      Array(23)[
-        ("655caeaf5ff0ced1b1c503fa",
+      [
+        "655caeaf5ff0ced1b1c503fa",
         "655caeaf5ff0ced1b1c50401",
         "655caec15ff0ced1b1c50414",
         "655caec25ff0ced1b1c5041b",
@@ -136,7 +135,7 @@ export const posts = [
         "655e2736d1d74ffbd27bc1bb",
         "655e2737d1d74ffbd27bc1c4",
         "655e5599d1d74ffbd27bc415",
-        "655e559ad1d74ffbd27bc41c")
+        "655e559ad1d74ffbd27bc41c"
       ],
     user: {
       _id: "655ad72bd148ee58ab8d5871",
@@ -157,9 +156,8 @@ export const posts = [
     desc: '<p>Full-Stack Social Media Application using ReactJs, Tailwind CSS for the front end and NodeJs, ExpressJs and MongoDb for backend.</p><p style="text-align: start">This App is fully responsive. This project includes for frontend (UI Design) and Backend (Server).</p><p style="text-align: start"></p><p style="text-align: start"></p><h1><strong>Functionalities:</strong></h1><p></p><p style="text-align: start"><span style="color: rgb(103, 150, 230)">1.</span> User Authentication and Authorisation</p><p style="text-align: start"><span style="color: rgb(103, 150, 230)">2.</span> Email Verification</p><p style="text-align: start"><span style="color: rgb(103, 150, 230)">3.</span> Password reset</p><p style="text-align: start"><span style="color: rgb(103, 150, 230)">4.</span> Create Post</p><p style="text-align: start"><span style="color: rgb(103, 150, 230)">5.</span> Advance Comment system (comments with sub coments)</p><p style="text-align: start"><span style="color: rgb(103, 150, 230)">6.</span> Like post and comments</p><p style="text-align: start"><span style="color: rgb(103, 150, 230)">7.</span> Delete post</p><p style="text-align: start"><span style="color: rgb(103, 150, 230)">8.</span> Friend Request (send request, accept or deby)</p><p style="text-align: start">and others.....</p><p style="text-align: start"></p><p style="text-align: start"></p><p style="text-align: start"></p><h1><strong>Getting Started</strong></h1><p></p><p style="text-align: start"></p><p style="text-align: start"></p><h1><strong>SERVER OR BACKEND</strong></h1><p></p><p style="text-align: start">Firstly move to the server directory eg: cd server</p><p style="text-align: start"></p><p style="text-align: start"><span style="color: rgb(103, 150, 230)">1.</span> Create a <code>.env</code> file</p><p style="text-align: start">&nbsp;&nbsp;The .env file will contain the following:</p><p style="text-align: start">&nbsp;&nbsp;i. MONGODB_URL = <code>database connection string</code></p><p style="text-align: start">&nbsp;&nbsp;ii. JWT_SECRET_KEY = <code>your secreate key</code></p><p style="text-align: start">&nbsp;&nbsp;iii. PORT = <code>8800</code></p><p style="text-align: start">&nbsp;&nbsp;iv. AUTH_EMAIL= <code>email address</code></p><p style="text-align: start">&nbsp;&nbsp;v. AUTH_PASSWORD= <code>email access password</code></p><p style="text-align: start">&nbsp;&nbsp;vi. APP_URL = <code>http://localhost:8800</code></p><p style="text-align: start"></p><p style="text-align: start">&nbsp;&nbsp;Note: I used hotmail account to send verification email, so you can just create one because hotmail account is reliable in product and has no configuration.</p><p style="text-align: start"></p><p style="text-align: start">&nbsp;&nbsp;Alos, change <code>API_URL</code> when you deploy your app else use localhost with the appropriate <code>port number</code></p><p style="text-align: start"></p><p style="text-align: start"><span style="color: rgb(103, 150, 230)">2.</span> Run <code>npm install</code> to install the packages</p><p style="text-align: start"><span style="color: rgb(103, 150, 230)">3.</span> Run <code>npm start</code> to start the server</p><p style="text-align: start"></p><p style="text-align: start"></p><h1><strong>VIEWS FILE</strong></h1><p></p><p style="text-align: start">In the view are the static html files to be use for <code>email verfication</code> and <code>password reset</code>.</p><p style="text-align: start"></p><p style="text-align: start"><span style="color: rgb(103, 150, 230)">1.</span> This folder is a React App</p><p style="text-align: start"><span style="color: rgb(103, 150, 230)">2.</span> navigate in the folder and install it dependencies</p><p style="text-align: start"><span style="color: rgb(103, 150, 230)">3.</span> make changes to suit your preference and run build</p><p style="text-align: start"><span style="color: rgb(103, 150, 230)">4.</span> copy the build folder into the view folder in the server folder</p><p style="text-align: start"></p><p style="text-align: start"><strong>Override the existing one.</strong></p><p style="text-align: start">NOTE: During deployment make sure you change the various links in the view file and build it again and replace the files in the view folder of the server folder.</p><p style="text-align: start"></p><p style="text-align: start"></p><p style="text-align: start"></p><h1><strong>CLINET SIDE</strong></h1><p></p><p style="text-align: start"></p><p style="text-align: start">The client or frontend also has .env filde in the root folder.</p><p style="text-align: start">Create an environment variable of name <code>REACT_APP_CLOUDINARY_ID</code>.</p><p style="text-align: start">This will store the cloudinary cloud name</p><p style="text-align: start"></p><p style="text-align: start">This side also has and env file with <code>REACT_APP_CLOUDINARY_ID</code></p>',
     img: "https://firebasestorage.googleapis.com/v0/b/blogwave-4bb76.appspot.com/o/1700452314589Codewave%20(1).png?alt=media&token=ee4b428f-0df4-47ec-af24-51ca1282f1a5",
     cat: "CODING",
-    views:
-      Array(29)[
-        ("655b1c2f9afbc1b789aa02d7",
+    views:[
+        "655b1c2f9afbc1b789aa02d7",
         "655b1c309afbc1b789aa02db",
         "655b1c98e1295762eaefef36",
         "655b1c99e1295762eaefef3a",
@@ -187,7 +185,7 @@ export const posts = [
         "655d830b079fbf7891ad8b14",
         "655d9cc2079fbf7891ad8c0a",
         "655d9cc3079fbf7891ad8c11",
-        "655da9eb079fbf7891ad8d14")
+        "655da9eb079fbf7891ad8d14"
       ],
     user: {
       _id: "655ad72bd148ee58ab8d5871",

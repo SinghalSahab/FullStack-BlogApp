@@ -69,7 +69,9 @@ console.log(post?.views?.length);
             >
               {post?.desc}
             </Markdown>)}
-
+            {/* COMMENTS SECTION */}
+          {/* <div className='w-full'>{<PostComments postId={id} />}</div>
+        </div> */}
           </div>
           <div className='w-full md:w-1/4 flex flex-col gap-y-12'>
              <Popularposts posts={popular?.posts} />

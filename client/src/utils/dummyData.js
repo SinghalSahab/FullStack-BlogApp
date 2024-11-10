@@ -282,7 +282,7 @@ export const popular = {
   ],
 };
 
-export const writer = {
+export const writers = [{
   _id: "655ad72bd148ee58ab8d5871",
   name: "Akwasi Asante",
   email: "codewave@gmail.com",
@@ -304,7 +304,8 @@ export const writer = {
       followerId: "655dbc30079fbf7891ad8df3",
     },
   ],
-};
+}
+];
 
 export const COMMENTS = [
   {

@@ -10,4 +10,5 @@ import Popularposts from "./Popularposts";
 import PopularWriters from "./PopularWriters";
 import Navbar from "./Navbar";
 import Footer from "./Footer";
-export {Loading,Logo,Button,Divider,Inputbox,Banner,Card,Pagination,PopularWriters,Popularposts,Navbar,Footer};
+import PostComments from "./PostComments";
+export {Loading,Logo,Button,Divider,Inputbox,Banner,Card,Pagination,PopularWriters,Popularposts,Navbar,Footer,PostComments};

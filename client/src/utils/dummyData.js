@@ -316,7 +316,7 @@ export const COMMENTS = [
     createdAt: "2023-11-21T17:13:15.842Z",
     updatedAt: "2023-11-21T17:13:15.842Z",
     __v: 0,
-  },
+  }, 
   {
     _id: "655ca6965d5a025fa52b60c6",
     user: { _id: "655acf151a4659413d8ab136", name: "CodeWave Mordecai" },
